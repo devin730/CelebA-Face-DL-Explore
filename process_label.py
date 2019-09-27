@@ -10,7 +10,7 @@ if(os.path.exists("noGlass.txt")):
     os.remove("noGlass.txt")
     print("noGlass.txt已存在，所以删除")
 
-f = open("D:/CelebA/Anno/list_attr_celeba.txt")
+f = open("./Anno/list_attr_celeba.txt")
 newTxt = "glass.txt"
 newf = open(newTxt, "a+")
 newNoTxt = "noGlass.txt"
